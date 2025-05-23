@@ -1,0 +1,306 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffc1b4e0;
+  color: #034C53;
+}
+
+/* Nav bar section */
+
+.logo {
+  width: 100px;
+  height: 82px;
+  margin-left: 0px;
+}
+
+* {
+  box-sizing: border-box; /* optional but recommended */
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 80px;
+  padding: 0 20px;
+  background-color: #007074c5;
+}
+
+ul {
+  display: flex; 
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+li {
+  display: inline; 
+}
+
+li a {
+  text-decoration: none;
+  color: #FFC1B4;
+  font-size: 18px;
+  transition: background-color 1s;
+}
+
+li a:hover {
+  background-color: #034C53;
+  border: #024950;
+  border-radius: 5px;
+}
+
+li a:active {
+  text-decoration: underline;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #FFC1B4;
+  border-radius: 10px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  color: #999;
+  font-size: 16px;
+}
+
+.search-bar {
+  padding: 8px 10px 8px 30px; /* makes room for the icon */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.cart-button {
+  background-color: #FFC1B4;
+  color: #034C53;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.cart-button:hover {
+  background-color: #e0a79c;
+}
+
+/* form section */
+
+.form-section {
+  width: 80%;
+  margin: auto;
+}
+
+.two-column-form {
+  background: #007074f1;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-left,
+.form-right {
+  flex: 1 1 300px;
+}
+
+label {
+  color: #e0a79c;
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #e0a79c;
+  border-radius: 5px;
+}
+
+.form-footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  background-color: #FFC1B4;
+  color: #034C53;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0a79c;
+}
+
+/* footer section */
+
+footer {
+  
+  background-color: #007074c5;
+}
+
+.icons {
+  margin-left: 49%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #FFC1B4e0;
+}
+
+/* Purchase */
+
+.flex-layout {
+  background-color: #007074b9;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  justify-items: center;  
+  margin: 30px auto;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.box {
+  flex: 1 1 200px;
+  background-color: #ffc1b4e0;
+  padding: 2rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.customise {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.customise button {
+  background-color: #ffc1b4e0;
+  color: #007074;
+  border: 2px solid #007074;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* features */
+
+.flex-layout2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #007074b9;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.box2 {
+  flex: 1 1 200px;
+  background-color: #ffc1b4e0;
+  padding: 2rem;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+article {
+  display: inline;
+}
+
+/* about us page */
+
+.block-about {
+  /* border: solid 2px black; */
+  margin:20px;
+}
+
+.you {
+  display: inline;
+  font-weight: bold;
+  width: 40%;
+  font-size: 150px;
+  text-transform: uppercase;
+  margin-top: 20px; 
+  /* border: solid 2px black; */
+}
+
+.p {
+  margin-top: 50px;
+  margin-right: 200px;
+  float: right;
+  text-wrap: wrap;
+  /* border: solid 2px black; */
+  font-size: 20px;
+  font-style: italic;
+}
+
+.h3 {
+  margin-left: 10px;
+  padding-left: 45px;
+  width: 1000px;
+  color: #999;
+  font-size: 165px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: solid 2px black;
+}
+
+.h4 {
+  font-size: 50px;
+}
+
+.second-block {
+  border: solid 2px black;
+  display: inline;
+}
+
+.long {
+  
+  border: solid 2px black;
+  width: 60%;
+}
+
+.h5 {
+  border-left: solid 4px black;
+  width: 20%;
+}

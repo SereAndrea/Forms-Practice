@@ -250,57 +250,70 @@ article {
 /* about us page */
 
 .block-about {
-  /* border: solid 2px black; */
-  margin:20px;
+  /* border: solid 2px black;  */
+  margin: 20px auto;
+  display: flex;
+  width: 1000px;
+  align-items: baseline;
 }
 
 .you {
-  display: inline;
-  font-weight: bold;
   width: 40%;
+  font-weight: bold;
   font-size: 150px;
   text-transform: uppercase;
-  margin-top: 20px; 
+  margin-left: 20px;
   /* border: solid 2px black; */
 }
 
 .p {
+  text-wrap: nowrap;
+  /* width: 70%; */
   margin-top: 50px;
-  margin-right: 200px;
-  float: right;
-  text-wrap: wrap;
+  margin-left: 45px;
   /* border: solid 2px black; */
   font-size: 20px;
   font-style: italic;
 }
 
 .h3 {
-  margin-left: 10px;
+  margin: 0 auto;
   padding-left: 45px;
   width: 1000px;
   color: #999;
   font-size: 165px;
   text-transform: uppercase;
   font-weight: bolder;
-  border: solid 2px black;
+  /* border: solid 2px black; */
 }
 
 .h4 {
   font-size: 50px;
+  margin-left: 17%;
+  font-weight: bold;
+  font-style: oblique;
 }
 
 .second-block {
-  border: solid 2px black;
-  display: inline;
+  /* border: solid 2px black; */
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
 }
 
 .long {
-  
-  border: solid 2px black;
+  margin-left: 40px;
+  /* border: solid 2px black; */
   width: 60%;
 }
 
 .h5 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-style: oblique;
+  margin-left: 25px;
+  padding-left: 10px;
+  padding-top: 20px;
   border-left: solid 4px black;
   width: 20%;
 }
